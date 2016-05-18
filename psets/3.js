@@ -10,3 +10,10 @@ http://math2.org/math/geometry/circles.htm
 */
 
 // write your solution here...
+var radius = 5,
+    circumference = (2 * Math.PI) * radius,
+    area = Math.PI * radius^2
+;
+
+console.log("The circumference is " + circumference + ".");
+console.log("The area is " + area + ".");
