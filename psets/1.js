@@ -10,3 +10,10 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+var currYear = 2016,
+    birth = 1914,// birth = console.log("What year were you born in?"),
+    possibleAge1 = currYear - birth,
+    possibleAge2 = possibleAge1 - 1
+;
+
+console.log("You are either " + possibleAge2 + " or " + possibleAge1 + " .");
