@@ -11,3 +11,10 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+var cTemp1 = 19;
+var fTemp1 = ((cTemp1 * 9) / 5) + 32;
+console.log("" + cTemp1 + "°C is " + fTemp1 + "°F.");
+
+var fTemp2 = 72;
+var cTemp2 = ((fTemp2 - 32) * 5) / 9;
+console.log("" + fTemp2 + "°F is " + cTemp2 + "°C.");
